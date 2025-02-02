@@ -19,9 +19,10 @@ This Tic-Tac-Toe game allows two players to play in a simple console environment
 ## Technologies Used
 - **C++** for game logic and implementation
 - **Console** for user interface
+- **VS Code** for development and code editing
 
 ## Screenshot
-![Game Screenshot](screenshot.png)  
+![Game Screenshot](images(ss)/tictactoe.JPG)  
 
 
 ## How to Play
