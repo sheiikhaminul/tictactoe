@@ -1,41 +1,34 @@
-\documentclass{article}
-\usepackage[a4paper, margin=1in]{geometry}
-\usepackage{hyperref}
+# Tic-Tac-Toe Game in C++
 
-\title{Tic-Tac-Toe Game in C++}
-\date{}
+A console-based Tic-Tac-Toe game for two players built using C++. Enjoy the classic game with a simple and interactive interface.
 
-\begin{document}
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Screenshot](#screenshot)
+- [How to Play](#how-to-play)
+- [Author](#author)
 
-\maketitle
+## Introduction
+This Tic-Tac-Toe game allows two players to play in a simple console environment. Players enter their names and symbols (X or O) and take turns to make moves. The game detects winning conditions and ties.
 
-\section*{Introduction}
-This is a simple console-based Tic-Tac-Toe game built using C++. Two players can play the game by entering their names and choosing their respective symbols (X or O). The game will display the board, prompt players for moves, and announce the winner or a tie.
+## Features
+- Two-player mode
+- Clear game board display
+- Win and tie detection
+- Input validation to ensure valid moves
 
-\section*{How to Play}
-\begin{enumerate}
-    \item Clone or download this repository.
-    \item Compile the code using any C++ compiler. Example for g++:
-    \begin{verbatim}
-    g++ tic_tac_toe.cpp -o tic_tac_toe
-    ./tic_tac_toe
-    \end{verbatim}
-    \item Follow the on-screen instructions to play.
-\end{enumerate}
+## Technologies Used
+- **C++** for game logic and implementation
+- **Console** for user interface
 
-\section*{Features}
-\begin{itemize}
-    \item Two-player mode
-    \item Board display and input validation
-    \item Win and tie detection
-\end{itemize}
+## Screenshot
+![Game Screenshot](screenshot.png)  
+*(Replace this with an actual screenshot of the game)*
 
-\section*{Requirements}
-\begin{itemize}
-    \item Any C++ compiler (g++, Visual Studio, Code::Blocks, etc.)
-\end{itemize}
-
-\section*{Author}
-[Your GitHub Name] - Simple C++ Tic-Tac-Toe Project
-
-\end{document}
+## How to Play
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/tic-tac-toe-cpp.git
+   cd tic-tac-toe-cpp
