@@ -5,7 +5,6 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Screenshot](#screenshot)
-- [How to Play](#how-to-play)
 
 ## Introduction
 This Tic-Tac-Toe game allows two players to play in a simple console environment. Players enter their names and symbols (X or O) and take turns to make moves. The game detects winning conditions and ties.
@@ -25,8 +24,4 @@ This Tic-Tac-Toe game allows two players to play in a simple console environment
 ![Game Screenshot](images(ss)/tictactoe.JPG)  
 
 
-## How to Play
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/tic-tac-toe-cpp.git
-   cd tic-tac-toe-cpp
+
